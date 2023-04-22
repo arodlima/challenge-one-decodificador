@@ -1,0 +1,255 @@
+body {
+    background: rgba(190, 149, 196, 0.4);
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    left: 0;
+}
+
+.header {
+    margin: 1em;
+}
+
+.input {
+    position: absolute;
+    width: 680px;
+    height: 350px;
+    left: 240px;
+    top: 120px;
+    resize: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background: rgba(186, 159, 190, 0);
+    outline: 0;
+    border: none;
+}
+
+::placeholder {
+    color: #231942;
+}
+
+.btn-info {
+    position: absolute;
+    left: 240px;
+    top: 475px;
+    padding: 20px;
+}
+
+.label {
+    width: 228px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0;
+    gap: 8px;
+    width: 252px;
+    height: 18px;
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 680px;
+    height: 67px;
+}
+
+#encrypt {
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 200px;
+    height: 67px;
+    background: #5E548E;
+    border: none;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#decrypt {
+    box-sizing: border-box;
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 200px;
+    height: 67px;
+    background: #F3F5FC;
+    border: 1px solid #231942;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #231942;
+}
+
+#clean {
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 200px;
+    height: 67px;
+    background: rgba(190, 149, 196, 0);;
+    border: 1px solid #231942;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #231942;
+}
+
+.result-container {
+    position: absolute;
+    width: 350px;
+    height: 570px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.info-result {
+    display: block;
+}
+
+.no-result-image {
+    padding: 40px 0;
+}
+
+.no-result-title {
+    width: 336px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 20px 0;    
+}
+
+.no-result-text {
+    width: 336px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#rText {
+    width: 336px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 10px;
+}
+
+#btnCopy {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 286px;
+    height: 67px;
+    left: 30px;
+    top: 470px;
+    border: 1px solid #231942;
+    border-radius: 24px;
+    color: #231942;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #231942;
+}
+
+.hide {
+    display: none;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+    background: #5E548E;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    padding: 2.5px;
+}
+
+a {
+    color: #F3F5FC;
+    text-decoration: none;
+}
