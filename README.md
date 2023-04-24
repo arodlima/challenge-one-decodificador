@@ -26,6 +26,7 @@ gaitober" => "gato"
 ```
 ### Extras:
 - Um botão que copia o texto criptografado/descriptografado para a área de transferência.
+- Um botão que limpa a página, atualizando.
 
 ## Design 
 
