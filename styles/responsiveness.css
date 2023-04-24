@@ -1,28 +1,57 @@
-/* mobile */
-@media only screen and (max-width: 600px) {
-    body {
-      font-size: 13px;
-    }
+@media screen and (max-width: 768px) {
+  .container {
+      position: static;
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      min-height: 100vh;
+      padding: 1.5rem;
+      gap: 1rem;
+      margin-top: 1.5rem;
   }
-  
-  /* tablets */
-  @media only screen and (max-width: 768px) {
-    body {
-      font-size: 16px;
-    }
-      
+
+  header, .input, .result-container, .btn-info, .result, footer {
+      position: static;
+      width: auto;
   }
-  
-  /* desktop */
-  @media only screen and (max-width: 992px) {
-    body {
-      font-size: 18px;
-    }
+
+  .input {
+      font-size: 25px;
+      width: 100%;
+      min-height: 60vh;
+
   }
-  
-  /* large desktop */
-  @media only screen and (max-width: 1200px) {
-    body {
-      font-size: 20px;
-    }
+
+  .form-buttons {
+      display: flex;
+      flex-direction: column;
   }
+
+  .result-container {
+      margin-top: 10em;
+  }
+
+  .no-result-image {
+      display: none;
+  }
+
+  #rText, .info-result {
+      width: 100%;
+  }
+
+  #btnCopy {
+      margin-top: 63em;
+      left: 50px;
+
+  }
+}
+
+@media (max-width: 375px) {
+  .input-container .input {
+      min-height: 30vh;
+  }
+
+  .input-container .form-buttons {
+      flex-direction: column;
+  }
+}
