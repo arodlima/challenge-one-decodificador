@@ -27,7 +27,7 @@ document.getElementById("encrypt").addEventListener("click", function encryptTex
 
 //descriptografar
 document.getElementById("decrypt").addEventListener("click", function decryptText(){
-    let text = resultContainer.textContent.toLowerCase();
+    let text = textInput.value.toLowerCase();
     if (text == "") {
         return;
     }
