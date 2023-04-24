@@ -23,7 +23,7 @@
     </header>
 
     <main class="container">
-        <form class="form">
+        <section class="input-container">
             <textarea id="text" class="input" placeholder="Digite seu texto aqui..." required></textarea>
                 <div class="btn-info">
                     <label class="label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
@@ -35,20 +35,20 @@
                         <button id="clean" type="button">Limpar</button>
                     </div>
                 </div>
-        </form>
+        </section>
 
-            <div class="result-container">
-                <div class="info-result">
-                    <img class="no-result-image" src="assets/imagem-principal.svg" alt="Ilustração de um personagem com cabelo e blusa roxa usando uma lupa para olhar um diamante">
-                    <h2 class="no-result-title">Nenhuma mensagem encontrada</h2>
-                    <p class="no-result-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
-                </div>
-
-                <div class="result">
-                    <p id="rText"></p>
-                    <button id="btnCopy">Copiar</button>
-                </div>
+        <section class="result-container">
+            <div class="info-result">
+                <img class="no-result-image" src="assets/imagem-principal.svg" alt="Ilustração de um personagem com cabelo e blusa roxa usando uma lupa para olhar um diamante">
+                <h2 class="no-result-title">Nenhuma mensagem encontrada</h2>
+                <p class="no-result-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
+
+            <div class="result">
+                <p id="rText"></p>
+                <button id="btnCopy">Copiar</button>
+            </div>
+        </section>
     </main>
 
     <footer>
