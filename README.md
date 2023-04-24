@@ -32,4 +32,7 @@ gaitober" => "gato"
 
 Eu usei o [modelo proposto](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0%3A1&t=LZnUMYkeWLU18zXq-1) como base, alterei somente as cores e adicionei um botao para limpar a página.
 
+### Paleta de cores
+![color_palette](https://user-images.githubusercontent.com/104288946/234137398-cc9f9f6a-82b3-4f72-91cc-de51232fd122.png)
+
 ![Tela inicial](https://user-images.githubusercontent.com/104288946/234110068-d426648a-b8bb-442c-9b72-fbb965cc1210.png)
