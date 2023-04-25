@@ -39,7 +39,8 @@ Eu usei o [modelo proposto](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Al
 ![Tela inicial](https://user-images.githubusercontent.com/104288946/234110068-d426648a-b8bb-442c-9b72-fbb965cc1210.png)
 
 ## Tecnologias usadas
-
- <a href="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5" target="_blank"><img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5"></a>
-  <a href="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3" target="_blank"><img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3"></a>
-  <a href="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript" target="_blank"><img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript"></a>
+<div align="center">
+ <img height="30em" src="https://img.shields.io/badge/HTML-5E548E?style=for-the-badge&logo=html5&logoColor=F3F5FC">
+ <img height="30em" src="https://img.shields.io/badge/CSS-5E548E?style=for-the-badge&logo=css3&logoColor=F3F5FC">
+ <img height="30em" src="https://img.shields.io/badge/JAVASCRIPT-5E548E?style=for-the-badge&logo=javascript&logoColor=F3F5FC">
+</div>
