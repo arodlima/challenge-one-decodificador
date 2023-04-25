@@ -2,6 +2,7 @@
 
 ![gif do projeto](https://user-images.githubusercontent.com/104288946/234121265-c023a65e-e3ea-480a-93d3-e902d8b55aaa.gif)
 
+### [CLIQUE AQUI PARA ACESSAR A APLICAÇÃO](https://arodlima.github.io/challenge-one-decodificador/)
 
 ## Sobre o desafio
 Uma aplicação que criptografa e descriptografa textos.
@@ -36,3 +37,9 @@ Eu usei o [modelo proposto](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Al
 ![Paleta de cores](https://user-images.githubusercontent.com/104288946/234138513-fb4fbbb5-9df0-4e89-9e1b-b031f8134e2c.png)
 
 ![Tela inicial](https://user-images.githubusercontent.com/104288946/234110068-d426648a-b8bb-442c-9b72-fbb965cc1210.png)
+
+## Tecnologias usadas
+
+ <a href="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5" target="_blank"><img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5"></a>
+  <a href="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3" target="_blank"><img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3"></a>
+  <a href="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript" target="_blank"><img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript"></a>
